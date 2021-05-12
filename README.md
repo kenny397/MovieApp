@@ -8,15 +8,14 @@
 
 
 ## naver api 사용법
-<
->> search <
->> 
->>
->>
->>
->>
 
 
->
-search
-...
+SeachFragment.java에 가서 아래 코드에서 clientId와 ClientSecret값을 naver api를 신청해서 수정하면 됩니다.
+```
+ 
+public class SearchFragment extends Fragment {
+    final String clientId = "naver clientId";//애플리케이션 클라이언트 아이디값";
+    final String clientSecret = "naver clientScret";//애플리케이션 클라이언트 비밀번호
+}
+
+```
